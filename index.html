@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>
+body{
+	background-image: url("Background.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+#myCanvas
+{
+	border-width:10px;
+	background-image: url("Canvasback.jpg");
+	border-style:ridge;
+}
+
+h1,h4
+{
+	color: white !important;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Car race</title>
+</head>
+<body onload="add()">
+<center>
+<h1>The best car race in town</h1>
+<h4>
+	<b class="text-danger">NOTE : </b> This a very super space race 
+</h4>
+
+<canvas id="myCanvas" width="800" height="600"></canvas><br>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
